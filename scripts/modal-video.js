@@ -364,4 +364,6 @@ var triggerEvent = exports.triggerEvent = function triggerEvent(el, eventName, o
 });
 
 
-new ModalVideo('.js-modal-btn', {channel:'vimeo', autoplay: true});
+const modalVid = new ModalVideo('.js-modal-btn', {channel:'vimeo', autoplay: true});
+
+export modalVid;

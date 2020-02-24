@@ -1,0 +1,212 @@
+.show-page-wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .show-page-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .show-page-text-left {
+    width: 100vw;
+    height: auto;
+    padding: 30px 50px 30px 30px;
+    overflow: auto;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .show-page-text-left {
+    width: 50vw;
+    padding: 30px 50px 30px 30px;
+    overflow: scroll;
+    margin-bottom: 35px;
+  }
+}
+
+.show-page-title {
+  white-space: nowrap;
+  font-size:2.3rem;
+  overflow: hidden;
+}
+
+.app-type {
+  position: relative;
+  font-size: 20px;
+  top: -7px;
+  right: -7px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .app-type {
+    position: relative;
+    font-size: 10px;
+    top: -10px;
+    right: -7px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .app-type {
+    position: relative;
+    font-size: 20px;
+    top: -7px;
+    right: -7px;
+  }
+}
+
+h2.show-tech {
+  font-family: kormelink !important;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.show-body-text {
+  font-family: kormelink ;
+  font-weight: normal;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+  .facts {
+    font-family: neue-haas-grotesk-text,sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .facts {
+    font-family: neue-haas-grotesk-text,sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .date-show {
+    transform: rotate(-90deg);
+    font-family: neue-haas-grotesk-text,sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .date-show {
+    transform: rotate(-90deg);
+    font-family: neue-haas-grotesk-text,sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    position: absolute;
+    right: 51vw;
+    top: 45vh;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .back-to-projects {
+    right: 2%;
+    position: absolute;
+    top: 74px;
+    font-family: neue-haas-grotesk-text,sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    transform: rotate(-90deg) translateY(39px);
+  }
+
+  .back-to-projects:hover{
+   text-decoration: underline;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .back-to-projects {
+    position: absolute;
+    bottom: 46px;
+    font-family: neue-haas-grotesk-text,sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    left: 30px;
+  }
+
+  .back-to-projects:hover{
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .show-page-images-right {
+    padding: 30px;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .show-page-images-right {
+    padding: 30px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-left: 1px solid black;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .show-image {
+    width: 100%;
+    -webkit-opacity: 100%;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+    transition: opacity 1s ease-in;
+  }
+  .show-image.loader {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .show-image {
+    width: 100%;
+    -webkit-opacity: 100%;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+    transition: opacity 1s ease-in;
+  }
+  .show-image.loader {
+    opacity: 1;
+  }
+}

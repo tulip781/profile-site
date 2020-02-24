@@ -1,15 +1,9 @@
-@import 'loading-page.css';
-@import 'homepage.css';
-@import 'show_card.css';
-@import 'index-card.css';
-@import 'nav-bar.css';
-@import 'about.css';
-@import 'show_page.css';
-@import 'show_page_text_styles.css';
-@import 'back-to-projects.css';
-@import 'modal.css';
-@import 'app_type.css';
-@import 'land_bootstrap_avoid.css';
+@import './home/homepage.css';
+@import './project/project.css';
+@import './about/about.css';
+@import './projects/projects.css';
+@import './navbar/nav_bar.css';
+@import './project/modal.css';
 
 html, body {
   margin: 0;

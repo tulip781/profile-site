@@ -1,0 +1,83 @@
+.load {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 0%;
+  -webkit-opacity: 0;
+  font-size: 78.5px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: kormelink ;
+  font-weight: normal;
+  z-index: 2;
+  transition: opacity 1s;
+  transition-timing-function: linear;
+  animation-name: zoom;
+  animation-duration: 3s;
+  transition: transform 3s ease;
+}
+
+.load.active {
+  -webkit-opacity: 1;
+  opacity: 100%;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.homepage-image-fullscreen {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width:100vw;
+}
+
+
+.homepage-image-div {
+  height:100%;
+  opacity: 0%;
+  margin:0 auto;
+  width: 50vh;
+  background:url(../../../images/o.jpeg) 50% 50% no-repeat;
+  transition: opacity 2s;
+  transition-timing-function: ease;
+  background-size:contain;
+  overflow: hidden;
+  mix-blend-mode: multiply;
+}
+
+
+.homepage-image-div.active {
+  opacity: 100%;
+  -webkit-opacity: 1;
+}
+
+@media only screen and (min-width: 375px) {
+  .homepage-image-div {
+    width: 80vw;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .homepage-image-div {
+    width: 50vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .homepage-image-div {
+    width: 50vh;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .homepage-image-div {
+    width: 50vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .homepage-image-div {
+    width: 50vh;
+  }
+}

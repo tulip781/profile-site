@@ -1,9 +1,14 @@
+.navbar.active {
+  -webkit-opacity: 100%;
+  opacity: 1;
+}
+
 /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
   opacity: 0;
   -webkit-opacity: 0;
   overflow: hidden;
-  position: fixed;
+  position: fixed !important;
   bottom: 0;
   width: 100%;
   border-top: 1px solid black;
@@ -26,6 +31,7 @@
 /* Change the color of links on hover */
 .navbar a:hover {
   text-decoration: underline;
+  color: black;
 }
 
 /* Hide the link that should open and close the navbar on small screens */
@@ -42,8 +48,8 @@
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the navbar (.icon) */
 @media screen and (max-width: 600px) {
-  .navbar.reveal a:not(:first-child) {display: none;}
-  .navbar.reveal a.icon {
+  .navbar.active a:not(:first-child) {display: none;}
+  .navbar.active a.icon {
     float: right;
     display: block;
     position: relative;
@@ -53,12 +59,12 @@
 
 /* The "responsive" class is added to the navbar with JavaScript when the user clicks on the icon. This class makes the navbar look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-  .navbar.reveal.responsive a.icon {
+  .navbar.active.responsive a.icon {
     position: absolute;
     right: 15px;
     bottom: 8px;
   }
-  .navbar.reveal.responsive a {
+  .navbar.active.responsive a {
     float: none;
     display: block;
     text-align: left;
