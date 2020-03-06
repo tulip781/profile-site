@@ -35,7 +35,7 @@
 
 .homepage-image-div {
   height:100%;
-  opacity: 0%;
+  opacity: 0;
   margin:0 auto;
   width: 50vh;
   background:url(../../../images/o.jpeg) 50% 50% no-repeat;
@@ -48,7 +48,7 @@
 
 
 .homepage-image-div.active {
-  opacity: 100%;
+  opacity: 1;
   -webkit-opacity: 1;
 }
 
