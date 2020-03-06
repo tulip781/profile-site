@@ -20,7 +20,7 @@
   width: 90%;
   cursor: pointer;
   transition: transform 1s ease;
-  -webkit-height: intrinsic;
+  height: -webkit-intrinsic;
 }
 
 .project2-card-image:hover {
