@@ -19,8 +19,8 @@
 .project2-card-image {
   width: 90%;
   cursor: pointer;
-  transition: transform 1s ease;
-  height: -webkit-intrinsic;
+  transition: transform .7s ease;
+  height: intrinsic;
 }
 
 .project2-card-image:hover {
