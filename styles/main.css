@@ -4,7 +4,7 @@
 @import './projects/projects.css';
 @import './navbar/nav_bar.css';
 @import './project/modal.css';
-@import './project/projectstwo.css';
+@import './projects/projectstwo.css';
 
 html, body {
   margin: 0;
