@@ -1,0 +1,68 @@
+/*Card Design Project*/
+
+.project2-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  padding: 30px 50px 30px 50px;
+
+}
+
+.image-project-link {
+  display: flex;
+  justify-content: center;
+}
+
+.project2-card-image {
+  width: 90%;
+  cursor: pointer;
+  transition: transform .7s ease;
+  height: intrinsic;
+}
+
+.project2-card-image:hover {
+  transform: scale(1.05)
+}
+
+.project2-card-title {
+  white-space: nowrap;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1.5em;
+}
+
+.project2-card-app-type {
+  font-size: 20px;
+}
+
+.project2-card-techlist {
+  font-family: kormelink;
+  font-weight: normal;
+  font-size: 20px;
+  display: none;
+}
+
+.project2-card-text-wrapper {
+  text-align: center;
+}
+
+/* Wrapper Around All Project*/
+
+.project2-wrapper-all-projects {
+  display: grid;
+  padding: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px
+}
+
+@media only screen and (max-width: 800px) {
+  .project2-wrapper-all-projects {
+    grid-template-columns: 1fr;
+  }
+
+  .project2-card-wrapper {
+    padding: 20px;
+
+  }
+}
