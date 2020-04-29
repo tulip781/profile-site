@@ -18,7 +18,10 @@
   width: 90%;
   cursor: pointer;
   transition: transform .7s ease;
-  height: intrinsic;
+  mix-blend-mode: multiply;
+  height: 200px;
+  width: 360px;
+  filter: grayscale(100%);
 }
 
 .project2-card-image:hover {
