@@ -21,6 +21,7 @@
   opacity: 0;
   height: 200px;
   width: 360px;
+  transform: translate(0,10px);
 
 }
 
@@ -33,10 +34,15 @@
   margin-top: 10px;
   margin-bottom: 5px;
   font-size: 1.5em;
+  opacity: 0;
+  transform: translate(0,10px);
+
 }
 
 .project2-card-app-type {
   font-size: 20px;
+  opacity: 0;
+  transform: translate(0,10px);
 }
 
 .project2-card-techlist {
