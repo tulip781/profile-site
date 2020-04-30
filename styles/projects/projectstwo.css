@@ -41,8 +41,7 @@
 
 .project2-card-app-type {
   font-size: 20px;
-  opacity: 0;
-  transform: translate(0,10px);
+
 }
 
 .project2-card-techlist {
@@ -74,4 +73,10 @@
     padding: 20px;
 
   }
+}
+
+.trans {
+  opacity: 0;
+  transform: translate(0,10px);
+  transition: opacity 2s;
 }

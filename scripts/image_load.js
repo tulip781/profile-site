@@ -18,7 +18,7 @@ titles.forEach((title) => {
   title.addEventListener('load', fadeImg(event, title));
 })
 
-const apps = [...document.querySelectorAll('.project2-card-app-type')]
+const apps = [...document.querySelectorAll('.trans')]
 
 apps.forEach((app) => {
   app.addEventListener('load', fadeImg(event, app));
